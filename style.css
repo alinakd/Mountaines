@@ -1,0 +1,122 @@
+/* MAIN BLOCK */
+
+.main {
+    background-image: url(main_page/background.png);
+    padding-bottom: 116px;
+    overflow: hidden;
+}
+
+.main__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0 80px 96px;
+}
+
+.main_logo {
+    align-items: center;
+}
+
+.main__logo_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.main__logo_text_1world {
+    margin-bottom: 9px;
+}
+
+.main__menu a {
+    color: #275553;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.main__menu li:not(:first-of-type) {
+    margin-left: 56px;
+}
+
+.main__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.main__menu_button {
+    margin-right: 95px;
+    margin-left: 64px;
+    color: #275553;
+    font-size: 16px;
+    background-color: transparent;
+    border: solid 1px #275553;
+    border-radius: 5px;
+    width: 144px;
+    height: 40px;
+}
+
+.main__items_text_date {
+    font-family: 'Inter-Bold';
+    font-size: 30px;
+    background-color: #F47648;
+    padding: 14px 24px;
+    border-radius: 16px;
+    background: linear-gradient(91.82deg, #FB8B62 5.83%, #F47648 89.73%), #F47648;
+    width: fit-content;
+}
+
+.main__items_text {
+    padding-left: 96px;
+}
+
+.main__items_text_header {
+    margin-bottom: 25px;
+}
+
+.main__heading {
+    background-image: url(main_page/heading_background.png);
+    background-repeat: no-repeat;
+    /* background: linear-gradient(172.92deg, #FFFFFF 2.56%, rgba(255, 255, 255, 0.572235) 32.59%, rgba(255, 255, 255, 0) 54.54%); */
+}
+
+.main__block_space {
+    width: 700px;
+}
+
+.main__items_text_icone {
+    flex-direction: column;
+}
+
+.main__items_text_link {
+    margin-top: 18px;
+}
+
+.main__items_text_link a {
+    margin-right: 18px;
+}
+
+.main__content {
+    padding-left: 99px;
+    justify-content: space-between;
+    margin-top: 43px;
+}
+
+.icon_facebook {
+    margin-right: 28px;
+}
+
+.main__gallery_navigation {
+    padding-top: 22px;
+    position: relative;
+    margin-right: -55px;
+}
+
+.main__navigation {
+    position: absolute;
+    bottom: -63px;
+}
+
+.main__gallery_pictures {
+    align-items: flex-end;
+}
