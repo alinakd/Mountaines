@@ -328,6 +328,10 @@ u {
     align-items: center;
 }
 
+.gallery_wrapper {
+    position: relative;
+}
+
 .gallery_gradient {
     filter: drop-shadow(0px 6px 14px rgba(0, 0, 0, 0.25));
 }
@@ -347,6 +351,18 @@ u {
     font-size: 14px;
     font-family: 'Lato-Regular';
     color: #BDBDBD;
+}
+
+.gallery_buttons_right {
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+}
+
+.gallery_buttons_left {
+    position: absolute;
+    bottom: -70px;
+    left: 0;
 }
 
 button:disabled {
