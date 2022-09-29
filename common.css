@@ -164,6 +164,7 @@
     font-family: 'Inter-Bold';
     font-size: 40px;
     line-height: 50px;
+    color: #212121;
 }
 
 .main-text_color_date {
@@ -181,10 +182,6 @@
 .color313131 {
     color: #313131;
     opacity: 0.8;
-}
-
-.color-black {
-    color: #212121;
 }
 
 .colorBDBDBD {
@@ -382,4 +379,32 @@ button:disabled {
     left: 23px;
     top: 90px;
     z-index: 3;
+}
+
+
+/* CARDS */
+
+.cards {
+    width: 288px;
+    height: 373px;
+    background-color: white;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card_secondary-text {
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.card_description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #5A5A5A;
+    margin-top: 4px;
+}
+
+.card_content_position {
+    padding: 32px 24px 27px 24px;
 }

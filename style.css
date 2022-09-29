@@ -360,4 +360,18 @@
 
 .section5 {
     background-color: #F1F1F1;
+    padding: 80px 95px;
+    position: relative;
+}
+
+.section5_main-text {
+    font-family: 'Inter-Bold';
+    font-size: 36px;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+
+.section5_cards {
+    justify-content: space-between;
+    display: flex;
 }
