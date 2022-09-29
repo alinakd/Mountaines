@@ -385,7 +385,7 @@
     background-image: url(section-6/background.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom -2px left;
     z-index: -2;
     display: flex;
     align-items: flex-start;
@@ -404,4 +404,41 @@
 .section6_pointer_position {
     left: 740px;
     top: 85px;
+}
+
+
+/* SECTION 7 */
+
+.section7 {
+    display: flex;
+    position: relative;
+    padding-top: 105px;
+    padding-left: 98px;
+    padding-bottom: 98px;
+    background-color: #000000;
+    z-index: -1;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section7_pointer_position {
+    position: absolute;
+    top: 110px;
+    left: 28px;
+}
+
+.section7_day-title_position {
+    margin-bottom: 48px;
+    color: white;
+}
+
+.section7_gallery_position {
+    padding-top: 60px;
+    margin-right: -245px;
+}
+
+.s7_img_position {
+    position: absolute;
+    bottom: -90px;
+    right: 100px;
 }
