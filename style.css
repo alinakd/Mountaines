@@ -254,7 +254,7 @@
     padding-top: 65px;
     padding-left: 105px;
     padding-bottom: 35px;
-    z-index: 0;
+    z-index: 3;
     background-repeat: no-repeat;
     align-items: flex-start;
 }
@@ -316,6 +316,7 @@
     padding-top: 93px;
     padding-left: 96px;
     padding-bottom: 160px;
+    z-index: 3;
 }
 
 .section4_pointer_position {
@@ -360,6 +361,7 @@
     background-color: #F1F1F1;
     padding: 80px 95px;
     position: relative;
+    z-index: 3;
 }
 
 .section5_main-text {
@@ -416,7 +418,6 @@
     padding-left: 98px;
     padding-bottom: 98px;
     background-color: #000000;
-    z-index: -1;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -441,4 +442,84 @@
     position: absolute;
     bottom: -90px;
     right: 100px;
+    z-index: 2;
+}
+
+
+/* SECTION 8 */
+
+.section8 {
+    background-image: url(section-8/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 125px;
+}
+
+.section8_container {
+    padding-right: 80px;
+    margin-bottom: 191px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* .section8_gradient {
+    background: linear-gradient(268.23deg, #000000 23.35%, rgba(0, 0, 0, 0.572235) 60.21%, rgba(0, 0, 0, 0) 88.82%);
+    transform: rotate(-90deg);
+    height: 1140px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.section8_pointer_position {
+    top: 130px;
+    right: 670px;
+}
+
+.section8_gallery_position {
+    padding-top: 84px;
+    left: -88px;
+    z-index: 3;
+}
+
+.section8_conteiner_day-title_position {
+    margin-bottom: 30px;
+}
+
+.section8-wrapper {
+    padding-left: 100px;
+    padding-bottom: 217px;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+}
+
+.section8_wrapper_day-title_position {
+    margin-bottom: 48px;
+}
+
+.sectioin8_table_container {
+    margin-top: 60px;
+}
+
+.section8_gallery2_position {
+    padding-top: 107px;
+    margin-right: -245px;
+}
+
+.section8_pointer2_position {
+    top: 91px;
+    left: 34px;
+}
+
+.s8_table_column2 {
+    color: #BABABA;
+    opacity: 0.7;
+    line-height: 24px;
+    font-size: 14px;
 }
