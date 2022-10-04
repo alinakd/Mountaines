@@ -457,3 +457,7 @@ button:disabled {
 .table_space {
     width: 50px;
 }
+
+.table_bold_text {
+    font-family: 'Lato-Bold';
+}
