@@ -1,548 +1,578 @@
-            @font-face {
-                font-family: icomoon;
-                font-display: swap;
-                src: url(./fonts/icomoon.woff) format("woff"), url(./fonts/icomoon.woff2) format("woff2");
-                font-weight: 400;
-                font-style: normal
-            }
-            
-            @font-face {
-                font-family: Inter-Black;
-                font-display: swap;
-                src: url(./fonts/Inter-Black.woff) format("woff"), url(./fonts/Inter-Black.woff2) format("woff2");
-                font-weight: 800;
-                font-style: normal
-            }
-            
-            @font-face {
-                font-family: Inter-Bold;
-                font-display: swap;
-                src: url(./fonts/Inter-Bold.woff) format("woff"), url(./fonts/Inter-Bold.woff2) format("woff2");
-                font-weight: 700;
-                font-style: normal
-            }
-            
-            @font-face {
-                font-family: Lato-Bold;
-                font-display: swap;
-                src: url(./fonts/Lato-Bold.woff) format("woff"), url(./fonts/Lato-Bold.woff2) format("woff2");
-                font-weight: 700;
-                font-style: normal
-            }
-            
-            @font-face {
-                font-family: Lato-Light;
-                font-display: swap;
-                src: url(./fonts/Lato-Light.woff) format("woff"), url(./fonts/Lato-Light.woff2) format("woff2");
-                font-weight: 300;
-                font-style: normal
-            }
-            
-            @font-face {
-                font-family: Lato-Medium;
-                font-display: swap;
-                src: url(./fonts/Lato-Medium.woff) format("woff"), url(./fonts/Lato-Medium.woff2) format("woff2");
-                font-weight: 500;
-                font-style: normal
-            }
-            
-            @font-face {
-                font-family: Lato-Regular;
-                font-display: swap;
-                src: url(./fonts/Lato-Regular.woff) format("woff"), url(./fonts/Lato-Regular.woff2) format("woff2");
-                font-weight: 400;
-                font-style: normal
-            }
-            
-            @font-face {
-                font-family: Roboto-Black;
-                font-display: swap;
-                src: url(./fonts/Roboto-Black.woff) format("woff"), url(./fonts/Roboto-Black.woff2) format("woff2");
-                font-weight: 800;
-                font-style: normal
-            }
-            
-            @font-face {
-                font-family: Montserrat-Bold;
-                font-display: swap;
-                font-style: normal;
-                font-weight: 700;
-                src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w9aXp-p7K4KLjztg.woff2) format('woff2');
-            }
-            
-            @font-face {
-                font-family: Montserrat-Regular;
-                font-display: swap;
-                font-style: normal;
-                font-weight: 400;
-                src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXp-p7K4KLjztg.woff2) format('woff2');
-            }
-            
-            @font-face {
-                font-family: Montserrat-Solid;
-                font-style: normal;
-                font-weight: 600;
-                src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2');
-            }
-            /* FONT FAMILY */
-            
-            .font-family-montserrat {
-                font-family: 'Montserrat-Regular';
-            }
-            
-            .font-family-Montserrat600 {
-                font-family: 'Montserrat-Solid';
-            }
-            
-            .font-family-Lato500 {
-                font-family: 'Lato-Medium';
-            }
-            
-            .font-family-Lato700 {
-                font-family: 'Lato-Bold';
-            }
-            
-            .font-family-Inter700 {
-                font-family: 'Inter-Bold';
-            }
-            /* FONT_SIZE */
-            
-            .size-14 {
-                font-size: 14px;
-            }
-            
-            .size-18 {
-                font-size: 18px;
-                line-height: 24px;
-            }
-            
-            .size-20 {
-                font-size: 20px;
-                line-height: 28px;
-            }
-            
-            .size-24 {
-                font-size: 24px;
-                line-height: 32px;
-            }
-            
-            .size-40 {
-                font-size: 40px;
-                line-height: 50px;
-            }
-            
-            .size-48 {
-                font-size: 48px;
-                line-height: 56px;
-            }
-            /* DESIGN */
-            
-            .shadow {
-                position: relative;
-                z-index: 1;
-            }
-            
-            .shadow::after {
-                position: absolute;
-                content: "";
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                background-color: black;
-                opacity: 0.2;
-                z-index: -1;
-            }
-            
-            .day-title {
-                font-family: 'Inter-Bold';
-                font-size: 40px;
-                line-height: 50px;
-                color: #212121;
-            }
-            
-            .main-text_color_date {
-                color: #F47648;
-            }
-            
-            .text-white {
-                color: white;
-            }
-            
-            .color121212 {
-                color: #121212;
-            }
-            
-            .color313131 {
-                color: #313131;
-                opacity: 0.8;
-            }
-            
-            .colorBDBDBD {
-                color: #BDBDBD;
-            }
-            
-            .secondary_text_grey {
-                color: #ACACAC;
-            }
-            /* COMMON PART */
-            
-            .d-flex {
-                display: flex;
-            }
-            
-            .flex-1 {
-                flex: 1;
-            }
-            
-            .flex-direction-column {
-                display: flex;
-                flex-direction: column;
-            }
-            
-            .align-items-center {
-                align-items: center;
-            }
-            
-            .content-center {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .position-relative {
-                position: relative;
-            }
-            
-            .position-absolute {
-                position: absolute;
-            }
-            
-            .space_between {
-                display: flex;
-                justify-content: space-between;
-            }
-            /* MAINN CONTENT */
-            
-            h1 {
-                font-family: Inter-Black;
-                font-weight: 900;
-                font-size: 64px;
-                margin: 0;
-                line-height: 64px;
-            }
-            
-            body {
-                margin: 0;
-                font-family: 'Lato-Regular';
-                font-size: 16px;
-                line-height: 24px;
-                overflow-x: hidden;
-            }
-            
-            blockquote {
-                font-family: 'Lato-Light';
-                color: #DEDEDE;
-                margin: 0;
-                line-height: 20px;
-            }
-            
-            u {
-                text-underline-position: under;
-                text-decoration-thickness: 1px;
-            }
-            /* CIRCLE */
-            
-            .circle {
-                border-radius: 50%;
-                border: 1px solid white;
-                height: 64px;
-                width: 64px;
-                background-color: transparent;
-                cursor: pointer;
-            }
-            
-            .circle-black {
-                border: 1px solid #212121;
-            }
-            
-            .circle-small {
-                width: 38px;
-                height: 38px;
-            }
-            
-            .play_icon {
-                width: 33px;
-                height: 33px;
-                background-image: url(section-13/play_icone.svg);
-                background-color: transparent;
-                border: none;
-            }
-            /* MARGIN */
-            
-            .mr-1 {
-                margin-right: 8px;
-            }
-            
-            .mr-2 {
-                margin-right: 16px;
-            }
-            
-            .mr-4 {
-                margin-right: 32px;
-            }
-            /* GALLERY ITEMS */
-            
-            .gallery_item_active {
-                width: 320px;
-                height: 320px;
-            }
-            
-            .gallery_item {
-                width: 282px;
-                height: 282px;
-                margin-left: 32px;
-            }
-            
-            .gallery_caption {
-                position: absolute;
-                font-size: 14px;
-                font-family: 'Lato-Bold';
-                color: white;
-                bottom: 24px;
-                left: 14px;
-            }
-            
-            .gallery_caption_item {
-                bottom: 16px;
-            }
-            
-            .gallery_image {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-            
-            .gallery_pictures {
-                display: flex;
-                align-items: center;
-            }
-            
-            .gallery_wrapper {
-                position: relative;
-            }
-            
-            .gallery_gradient {
-                filter: drop-shadow(0px 6px 14px rgba(0, 0, 0, 0.25));
-            }
-            
-            .gallery_gradient::before {
-                content: "";
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                height: 43%;
-                transform: matrix(1, 0, 0, -1, 0, 0);
-                background: linear-gradient(179.37deg, #000000 1.87%, rgba(0, 0, 0, 0.572235) 58.73%, rgba(0, 0, 0, 0) 94.86%);
-            }
-            
-            .gallery_caption_description {
-                font-size: 14px;
-                font-family: 'Lato-Regular';
-                color: #BDBDBD;
-            }
-            
-            .gallery_buttons_right {
-                position: absolute;
-                bottom: -70px;
-                right: 0;
-            }
-            
-            .gallery_buttons_left {
-                position: absolute;
-                bottom: -70px;
-                left: 0;
-            }
-            
-            button:disabled {
-                opacity: 0.5;
-            }
-            /* POINTER */
-            
-            .pointer {
-                position: absolute;
-                border-radius: 50%;
-                border: 3px solid #6C6C6C;
-                width: 32px;
-                height: 32px;
-                align-items: center;
-                justify-content: center;
-                display: flex;
-            }
-            
-            .pointer_center {
-                border-radius: 50%;
-                background-color: #F47648;
-                width: 16px;
-                height: 16px;
-            }
-            
-            .dashed_strip {
-                position: absolute;
-                left: 23px;
-                top: 90px;
-                z-index: 3;
-            }
-            /* CARDS */
-            
-            .cards {
-                width: 288px;
-                height: 373px;
-                background-color: white;
-                box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
-                border-radius: 5px;
-            }
-            
-            .card_secondary-text {
-                font-family: 'Montserrat-Bold';
-                font-size: 18px;
-                line-height: 24px;
-            }
-            
-            .card_description {
-                font-size: 14px;
-                line-height: 24px;
-                color: #5A5A5A;
-                margin-top: 4px;
-            }
-            
-            .card_content_position {
-                padding: 32px 24px 27px 24px;
-            }
-            /* TABLE */
-            
-            .table_name {
-                font-family: 'Montserrat-Bold';
-                font-size: 20px;
-                line-height: 28px;
-                margin-bottom: 31px;
-            }
-            
-            .table {
-                border-collapse: collapse;
-            }
-            
-            .table tr {
-                border-bottom: solid 1px #BABABA;
-            }
-            
-            .table td {
-                padding-top: 16px;
-                padding-bottom: 16px;
-                padding-right: 35px;
-                padding-left: 15px;
-            }
-            
-            .table_space {
-                width: 50px;
-            }
-            
-            .table_bold_text {
-                font-family: 'Lato-Bold';
-            }
-            /* IMPUT */
-            
-            .field {
-                display: flex;
-                flex-flow: column-reverse;
-                margin-bottom: 1em;
-                position: relative;
-            }
-            
-            label,
-            input {
-                transition: all 0.2s;
-                touch-action: manipulation;
-            }
-            
-            .form_name {
-                border: 0;
-                border-bottom: 1px solid #212121;
-                font-family: 'Lato-Regular';
-                font-size: 20px;
-                -webkit-appearance: none;
-                border-radius: 0;
-                padding-top: 16px;
-                padding-bottom: 13px;
-                padding-left: 5px;
-                color: #999999;
-                cursor: text;
-                background: transparent;
-            }
-            
-            .form_name:focus {
-                outline: 0;
-                border-bottom: 1px solid #212121;
-            }
-            
-            label {
-                font-size: 14px;
-                color: #212121;
-            }
-            
-            .form_name:placeholder-shown+label {
-                cursor: text;
-                max-width: 66.66%;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                transform-origin: left bottom;
-                transform: translate(0, 3.125rem) scale(1.5);
-            }
-            
-             ::-webkit-input-placeholder {
-                opacity: 0;
-                transition: inherit;
-            }
-            
-            .form_name:focus::-webkit-input-placeholder {
-                opacity: 1;
-            }
-            
-            input::-webkit-inner-spin-button,
-            input::-webkit-calendar-picker-indicator {
-                display: none;
-                -webkit-appearance: none;
-            }
-            /* RADIO CIRCLES */
-            
-            .choice_circles {
-                width: 16px;
-                height: 16px;
-                accent-color: #275553;
-            }
-            /* BUTTON */
-            
-            .button {
-                background-color: #F47648;
-                border: none;
-                border-radius: 5px;
-                color: white;
-                font-size: 14px;
-            }
-            /* FOOTER */
-            
-            .footer_borders>*:not(:last-of-type) {
-                position: relative;
-            }
-            
-            .footer_borders>*:not(:last-of-type):after {
-                content: "";
-                position: absolute;
-                right: 0;
-                top: 0;
-                height: 100%;
-                width: 1px;
-                background-image: url(section-13/horizontal_line.svg);
-            }
+@font-face {
+    font-family: icomoon;
+    font-display: swap;
+    src: url(./fonts/icomoon.woff) format("woff"), url(./fonts/icomoon.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter-Black;
+    font-display: swap;
+    src: url(./fonts/Inter-Black.woff) format("woff"), url(./fonts/Inter-Black.woff2) format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    font-display: swap;
+    src: url(./fonts/Inter-Bold.woff) format("woff"), url(./fonts/Inter-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    font-display: swap;
+    src: url(./fonts/Lato-Bold.woff) format("woff"), url(./fonts/Lato-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Light;
+    font-display: swap;
+    src: url(./fonts/Lato-Light.woff) format("woff"), url(./fonts/Lato-Light.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Medium;
+    font-display: swap;
+    src: url(./fonts/Lato-Medium.woff) format("woff"), url(./fonts/Lato-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    font-display: swap;
+    src: url(./fonts/Lato-Regular.woff) format("woff"), url(./fonts/Lato-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    font-display: swap;
+    src: url(./fonts/Roboto-Black.woff) format("woff"), url(./fonts/Roboto-Black.woff2) format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w9aXp-p7K4KLjztg.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXp-p7K4KLjztg.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Montserrat-Solid;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+}
+
+
+/* FONT FAMILY */
+
+.font-family-montserrat {
+    font-family: "Montserrat-Regular";
+}
+
+.font-family-Montserrat600 {
+    font-family: "Montserrat-Solid";
+}
+
+.font-family-Lato500 {
+    font-family: "Lato-Medium";
+}
+
+.font-family-Lato700 {
+    font-family: "Lato-Bold";
+}
+
+.font-family-Inter700 {
+    font-family: "Inter-Bold";
+}
+
+
+/* FONT_SIZE */
+
+.size-14 {
+    font-size: 14px;
+}
+
+.size-18 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.size-20 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.size-24 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.size-40 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.size-48 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+
+/* DESIGN */
+
+.shadow {
+    position: relative;
+    z-index: 1;
+}
+
+.shadow::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.day-title {
+    font-family: "Inter-Bold";
+    font-size: 40px;
+    line-height: 50px;
+    color: #212121;
+}
+
+.main-text_color_date {
+    color: #f47648;
+}
+
+.text-white {
+    color: white;
+}
+
+.color121212 {
+    color: #121212;
+}
+
+.color313131 {
+    color: #313131;
+    opacity: 0.8;
+}
+
+.colorBDBDBD {
+    color: #bdbdbd;
+}
+
+.secondary_text_grey {
+    color: #acacac;
+}
+
+
+/* COMMON PART */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.space_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* MAINN CONTENT */
+
+h1 {
+    font-family: Inter-Black;
+    font-weight: 900;
+    font-size: 64px;
+    margin: 0;
+    line-height: 64px;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+
+blockquote {
+    font-family: "Lato-Light";
+    color: #dedede;
+    margin: 0;
+    line-height: 20px;
+}
+
+u {
+    text-underline-position: under;
+    text-decoration-thickness: 1px;
+}
+
+
+/* CIRCLE */
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 64px;
+    width: 64px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.circle-black {
+    border: 1px solid #212121;
+}
+
+.circle-small {
+    width: 38px;
+    height: 38px;
+}
+
+.play_icon {
+    width: 33px;
+    height: 33px;
+    background-image: url(section-13/play_icone.svg);
+    background-color: transparent;
+    border: none;
+}
+
+
+/* MARGIN */
+
+.mr-1 {
+    margin-right: 8px;
+}
+
+.mr-2 {
+    margin-right: 16px;
+}
+
+.mr-4 {
+    margin-right: 32px;
+}
+
+
+/* GALLERY ITEMS */
+
+.gallery_item_active {
+    width: 320px;
+    height: 320px;
+}
+
+.gallery_item {
+    width: 282px;
+    height: 282px;
+    margin-left: 32px;
+}
+
+.gallery_caption {
+    position: absolute;
+    font-size: 14px;
+    font-family: "Lato-Bold";
+    color: white;
+    bottom: 24px;
+    left: 14px;
+}
+
+.gallery_caption_item {
+    bottom: 16px;
+}
+
+.gallery_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery_pictures {
+    display: flex;
+    align-items: center;
+}
+
+.gallery_wrapper {
+    position: relative;
+}
+
+.gallery_gradient {
+    filter: drop-shadow(0px 6px 14px rgba(0, 0, 0, 0.25));
+}
+
+.gallery_gradient::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 43%;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    background: linear-gradient( 179.37deg, #000000 1.87%, rgba(0, 0, 0, 0.572235) 58.73%, rgba(0, 0, 0, 0) 94.86%);
+}
+
+.gallery_caption_description {
+    font-size: 14px;
+    font-family: "Lato-Regular";
+    color: #bdbdbd;
+}
+
+.gallery_buttons_right {
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+}
+
+.gallery_buttons_left {
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+
+/* POINTER */
+
+.pointer {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #6c6c6c;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pointer_center {
+    border-radius: 50%;
+    background-color: #f47648;
+    width: 16px;
+    height: 16px;
+}
+
+.dashed_strip {
+    position: absolute;
+    left: 23px;
+    top: 90px;
+    z-index: 3;
+}
+
+
+/* CARDS */
+
+.cards {
+    width: 288px;
+    height: 373px;
+    background-color: white;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card_secondary-text {
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.card_description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #5a5a5a;
+    margin-top: 4px;
+}
+
+.card_content_position {
+    padding: 32px 24px 27px 24px;
+}
+
+
+/* TABLE */
+
+.table_name {
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 31px;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table tr {
+    border-bottom: solid 1px #bababa;
+}
+
+.table td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 35px;
+    padding-left: 15px;
+}
+
+.table_space {
+    width: 50px;
+}
+
+.table_bold_text {
+    font-family: "Lato-Bold";
+}
+
+
+/* IMPUT */
+
+.field {
+    display: flex;
+    flex-flow: column-reverse;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+label,
+input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+}
+
+.form_name {
+    border: 0;
+    border-bottom: 1px solid #212121;
+    font-family: "Lato-Regular";
+    font-size: 20px;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    color: #999999;
+    cursor: text;
+    background: transparent;
+}
+
+.form_name:focus {
+    outline: 0;
+    border-bottom: 1px solid #212121;
+}
+
+label {
+    font-size: 14px;
+    color: #212121;
+}
+
+.form_name:placeholder-shown+label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 3.125rem) scale(1.5);
+}
+
+::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+}
+
+.form_name:focus::-webkit-input-placeholder {
+    opacity: 1;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+
+/* RADIO CIRCLES */
+
+.choice_circles {
+    width: 16px;
+    height: 16px;
+    accent-color: #275553;
+}
+
+
+/* BUTTON */
+
+.button {
+    background-color: #f47648;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* FOOTER */
+
+.footer_borders>*:not(:last-of-type) {
+    position: relative;
+}
+
+.footer_borders>*:not(:last-of-type):after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-image: url(section-13/horizontal_line.svg);
+}

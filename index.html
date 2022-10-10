@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900' rel='stylesheet'>
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile_style.css">
     <title>Mountaines</title>
 </head>
 
 <body>
-    <div class="main shadow">
+    <section class="main shadow">
         <div class="main__heading">
             <div class="main__header">
                 <div class="main_logo d-flex">
@@ -35,6 +36,9 @@
                     <button class="main__menu_button">
             Забронировать
             </button>
+                    <button class="main__menu_hamburger">
+                <img src="main_page/menu.svg">
+            </button>
                 </div>
             </div>
             <div class="d-flex">
@@ -57,45 +61,50 @@
                     </button>
                     </div>
                 </div>
-                <div class="d-flex">
-                    <div>
-                        <a href="#"><img class="icon_facebook" src="main_page/icon_facebook.svg"> </a>
-                        <a href="#"> <img src="main_page/icon_instagram.svg"> </a>
-                    </div>
+                <div class="d-flex main__items_icone_delete">
+                    <a href="#"><img class="icon_facebook" src="main_page/icon_facebook.svg"> </a>
+                    <a href="#"> <img src="main_page/icon_instagram.svg"> </a>
                 </div>
             </div>
-            <div class="main__gallery_navigation">
-                <div class="d-flex main__gallery_pictures">
-                    <div class="position-relative main_gallery_item_active ">
-                        <img class="gallery_image" src="main_page/picture1.jpeg">
-                        <div class="main_gallery_caption gallery_caption">
-                            <span>Поход в горы</span>
+            <div>
+                <div class="main__gallery_navigation">
+                    <div class="d-flex main__gallery_pictures">
+                        <div class="position-relative main_gallery_item_active ">
+                            <img class="gallery_image" src="main_page/picture1.jpeg">
+                            <div class="main_gallery_caption gallery_caption">
+                                <span>Поход в горы</span>
+                            </div>
+                        </div>
+                        <div class="position-relative main_gallery_item shadow">
+                            <img class="gallery_image" src="main_page/picture2.jpeg">
+                            <div class="main_gallery_caption gallery_caption">
+                                <span>Дикая природа</span>
+                            </div>
+                        </div>
+                        <div class="position-relative main_gallery_item shadow">
+                            <img class="gallery_image" src="main_page/picture3.jpeg">
+                            <div class="main_gallery_caption gallery_caption">
+                                <span>Незбываемые пляжи</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="position-relative main_gallery_item shadow">
-                        <img class="gallery_image" src="main_page/picture2.jpeg">
-                        <div class="main_gallery_caption gallery_caption">
-                            <span>Дикая природа</span>
-                        </div>
-                    </div>
-                    <div class="position-relative main_gallery_item shadow">
-                        <img class="gallery_image" src="main_page/picture3.jpeg">
-                        <div class="main_gallery_caption gallery_caption">
-                            <span>Незбываемые пляжи</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex main__navigation">
-                    <button disabled class="circle circle-small content-center mr-2">
+                    <div class="d-flex main__navigation">
+                        <button disabled class="circle circle-small content-center mr-2">
                         <img src="common-img/white_arrow-left.svg">
                     </button>
-                    <button class="circle circle-small content-center">
+                        <button class="circle circle-small content-center">
                         <img src="common-img/white_arrow-right.svg">
                     </button>
+                    </div>
                 </div>
             </div>
+            <div class="d-flex main__items_icone_mobile main__items_icone">
+                <a href="#"><img class="icon_facebook" src="main_page/icon_facebook.svg"> </a>
+                <a href="#"> <img src="main_page/icon_instagram.svg"> </a>
+            </div>
         </div>
-    </div>
+    </section>
+    </section>
     <section class="section2">
         <div class="section2__background"></div>
         <div class="section2_background-text">Камчатка</div>
