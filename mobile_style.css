@@ -42,9 +42,31 @@
                     padding-right: 47px;
                     display: flex;
                 }
+                /* SECTION 2 */
+                .section2 {
+                    padding: 64px 40px;
+                }
+                .section2__background {
+                    background-position-x: -244px;
+                    background-position-y: 65px;
+                }
+                .section2_background-text {
+                    left: 156px;
+                    top: 6px;
+                }
+                .section2__airplane {
+                    right: -268px;
+                    bottom: 310px;
+                }
+                .section2_content_icon_container:not(:last-of-type) {
+                    margin-right: 45px;
+                }
+                .section2__text-container {
+                    margin-top: 344px;
+                }
             }
             
-            @media screen and (max-width: 576px) {
+            @media screen and (max-width: 572px) {
                 .main__header {
                     padding: 21px 18px 64px 16px;
                 }
@@ -57,9 +79,16 @@
                 .main__content {
                     padding-left: 16px;
                 }
+                .circle_mobile {
+                    width: 48px;
+                    height: 48px;
+                }
                 .main__items_text_header {
                     font-size: 48px;
                     line-height: 48px;
+                }
+                .main__items_icone {
+                    padding-right: 16px;
                 }
                 .main__items_text_date {
                     font-size: 18px;
@@ -72,5 +101,58 @@
                 .main__secondary_text {
                     font-size: 18px;
                     width: inherit;
+                }
+                .main_gallery_item {
+                    margin-left: 16px;
+                }
+                /* SECTION 2 */
+                .section2 {
+                    padding: 48px 16px;
+                }
+                .section2__background {
+                    background-position-x: -393px;
+                    background-position-y: 95px;
+                }
+                .section2__content_hero {
+                    margin-bottom: 24px;
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+                .section2__content_caption {
+                    font-size: 20px;
+                    line-height: 32px;
+                }
+                .section2_background-text {
+                    display: none;
+                }
+                .section2__content_text {
+                    margin-bottom: 27px;
+                }
+                .section2_icons {
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+                .section2_content_icon_container:not(:last-of-type) {
+                    margin-right: 0px;
+                }
+                .section2_content_icon_container {
+                    flex-basis: 50%;
+                    margin-top: 21px;
+                }
+                .section2__airplane {
+                    left: -4px;
+                    top: -260px;
+                }
+                .section2__airplane img {
+                    width: 568px;
+                    height: 231px;
+                }
+                .section2__text-container {
+                    margin-top: 237px;
+                }
+                .section2__text-container_secondary {
+                    font-size: 20px;
+                    line-height: 32px;
+                    margin-bottom: 19px;
                 }
             }
