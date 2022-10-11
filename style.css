@@ -95,6 +95,18 @@
             margin-top: 18px;
         }
         
+        .main__link_timetable a {
+            font-size: 18px;
+            color: white;
+            text-underline-position: under;
+            text-decoration-thickness: 1px;
+        }
+        
+        .main__secondary_text {
+            font-size: 20px;
+            width: 384px;
+        }
+        
         .main__items_text_link a {
             margin-right: 18px;
         }
@@ -131,9 +143,12 @@
         }
         
         .main_gallery_item {
+            margin-left: 35px;
+        }
+        
+        .main_gallery_item img {
             width: 211px;
             height: 210px;
-            margin-left: 35px;
         }
         
         .main_gallery_item::after {
@@ -141,9 +156,9 @@
             z-index: 0;
         }
         
-        .main_gallery_item_active {
+        .main_gallery_item_active img {
             width: 270px;
-            height: 268px;
+            height: 270px;
         }
         
         .main_gallery_item_active::before {
