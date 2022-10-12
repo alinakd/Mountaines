@@ -302,25 +302,26 @@
 
 .section2_text-container_author {
   line-height: 20px;
+  font-family: 'Lato-Medium';
 }
 /* SECTION 3 */
 
 .section3 {
   background-image: url(section-3/background.png);
+  background-size: cover;
   position: relative;
-  height: 703px;
   padding-top: 65px;
   padding-left: 105px;
-  padding-bottom: 35px;
   z-index: 3;
   background-repeat: no-repeat;
   align-items: flex-start;
+  padding-bottom: 188px;
 }
 
 .section3::before {
   content: "";
   width: 100%;
-  height: calc(100% - 265px);
+  height: calc(100% - 264px);
   left: 0;
   bottom: 265px;
   position: absolute;
@@ -337,14 +338,17 @@
   left: 39px;
   top: 68px;
 }
-
+.section3_text_container {
+    max-width: 458px;
+    margin-right: 40px;
+    
+}
 .section3__main-text {
   margin-bottom: 48px;
 }
 
 .section3__content_text {
   color: #acacac;
-  margin-bottom: 80px;
 }
 
 .section3__content_text div:not(:last-of-type) {
