@@ -85,62 +85,6 @@
     src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
 }
 
-
-/* FONT FAMILY */
-
-.font-family-montserrat {
-    font-family: "Montserrat-Regular";
-}
-
-.font-family-Montserrat600 {
-    font-family: "Montserrat-Solid";
-}
-
-.font-family-Lato500 {
-    font-family: "Lato-Medium";
-}
-
-.font-family-Lato700 {
-    font-family: "Lato-Bold";
-}
-
-.font-family-Inter700 {
-    font-family: "Inter-Bold";
-}
-
-
-/* FONT_SIZE */
-
-.size-14 {
-    font-size: 14px;
-}
-
-.size-18 {
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.size-20 {
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.size-24 {
-    font-size: 24px;
-    line-height: 32px;
-}
-
-.size-40 {
-    font-size: 40px;
-    line-height: 50px;
-}
-
-.size-48 {
-    font-size: 48px;
-    line-height: 56px;
-}
-
-
 /* DESIGN */
 
 .shadow {
@@ -173,19 +117,6 @@
 
 .text-white {
     color: white;
-}
-
-.color121212 {
-    color: #121212;
-}
-
-.color313131 {
-    color: #313131;
-    opacity: 0.8;
-}
-
-.colorBDBDBD {
-    color: #bdbdbd;
 }
 
 .secondary_text_grey {
@@ -312,7 +243,7 @@ u {
 
 /* GALLERY ITEMS */
 
-.gallery_item_active {
+.gallery_item_active img{
     width: 320px;
     height: 320px;
 }
