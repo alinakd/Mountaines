@@ -129,6 +129,26 @@
   .gallery_buttons_right {
     left: 0;
   }
+  /* SECTION 5 */
+  .section5 {
+padding: 80px 40px;
+  }
+  .section5_cards {
+    flex-wrap: wrap;
+  }
+  .cards {
+    margin-top: 36px;
+  }
+  .section5_main-text {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 572px) and (max-width: 992px) {
+    .cards {
+        width: 324px;
+        height: 420px;
+    }
 }
 
 @media screen and (max-width: 572px) {
@@ -259,5 +279,13 @@
   }
   .section4_gallery_position {
     margin-top: 24px;
+  }
+
+  /* SECTION 5 */
+  .section5 {
+    padding: 40px 16px;
+  }
+  .section5_cards {
+    justify-content: center;
   }
 }
