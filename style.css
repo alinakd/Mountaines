@@ -443,15 +443,19 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom -2px left;
-  z-index: -2;
+  z-index: 1;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
 .section6_gallery_position {
-  margin-left: -105px;
+  margin-left: -432px;
   padding-top: 50px;
+
+}
+.section6_text_container {
+    width:505px;
 }
 
 .section6_day-title_position {
@@ -461,6 +465,18 @@
 .section6_pointer_position {
   left: 740px;
   top: 85px;
+}
+
+.section6_buttons_white {
+    display: none;
+}
+.section6_eagle_mobile {
+    display: none;
+    width: 530px;
+    height: 299px;
+    position: absolute;
+    right: 146px;
+    bottom: -236px;
 }
 /* SECTION 7 */
 
