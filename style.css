@@ -500,18 +500,22 @@
 .section7_day-title_position {
   margin-bottom: 48px;
   color: white;
+  max-width: 533px;
 }
-
+.section7_secondary_text {
+    max-width: 460px;
+}
 .section7_gallery_position {
   padding-top: 60px;
   margin-right: -245px;
+  z-index: 2;
 }
 
 .s7_img_position {
   position: absolute;
   bottom: -90px;
-  right: 100px;
-  z-index: 2;
+  right: 74px;
+  z-index: 1;
 }
 /* SECTION 8 */
 
