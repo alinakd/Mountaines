@@ -242,6 +242,9 @@ u {
 .ml-4 {
     margin-left: 32px;
 }
+.ml-0 {
+    margin-left: 0;
+}
 
 
 /* GALLERY ITEMS */
@@ -393,10 +396,14 @@ button:disabled {
 }
 
 .table {
-    border-collapse: collapse;
+    border-bottom: solid 1px #bababa;
+    padding: 16px 15px 16px 35px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
 
-.table tr {
+/* .table tr {
     border-bottom: solid 1px #bababa;
 }
 
@@ -413,7 +420,7 @@ button:disabled {
 
 .table_bold_text {
     font-family: "Lato-Bold";
-}
+} */
 
 
 /* IMPUT */
