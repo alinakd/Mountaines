@@ -501,11 +501,13 @@ input::-webkit-calendar-picker-indicator {
 
 /* FOOTER */
 
-.footer_borders>*:not(:last-of-type) {
+.footer_borders>*:not(:last-of-type), 
+.section13_container_separat>*:not(:last-of-type) {
     position: relative;
 }
 
-.footer_borders>*:not(:last-of-type):after {
+.footer_borders>*:not(:last-of-type):after,  
+.section13_container_separat>*:not(:last-of-type):after {
     content: "";
     position: absolute;
     right: 0;

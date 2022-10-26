@@ -1030,6 +1030,10 @@ display: block;
   border-bottom: 2px solid #363636;
 }
 
+.section13_container_separat{
+    display: flex;
+}
+
 .section13_container_menu {
   padding-right: 41px;
 }
@@ -1060,6 +1064,8 @@ display: block;
   font-family: "Inter-Bold";
   color: #bababa;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 28px;
 }
 
 .section13_button {
