@@ -1,3 +1,8 @@
+@media screen and (min-width:572px) {
+  .desktop_tablet_hidden {
+    display: none;
+  }
+}
 @media screen and (max-width: 992px) {
   .main {
     background-image: url(main_page/background_mobile.png);
@@ -222,8 +227,104 @@
   .section8 .mr-4 {
     margin-right: 0;
   }
-  
+  /* SECTION 9 */
+  .section9 {
+    padding: 0 40px;
   }
+  .section9_image {
+    right: -344px;
+    top: -78px;
+  }
+  .section9_wrapper {
+    flex-direction: column-reverse;
+  }
+  .section9_gallery_position {
+    margin-left: 0;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  .section9_conteiner {
+    padding-bottom: 22px;
+  }
+  .section9_secondary_text_1part {
+    max-width: 263px;
+  }
+  .section9_secondary_text_2part {
+    max-width: fit-content;
+  }
+  .section9_secondary_text_3part {
+    max-width: fit-content;
+  }
+  /* SECTION 10  */
+  .section10 {
+    padding-bottom: 64px;
+    padding-top: 150px;
+  }
+  .section10_day-title_position {
+    max-width: fit-content;
+    margin-bottom: 32px;
+  }
+  /* SECTION 11 */
+  .section11 {
+    padding: 61px 40px 110px;
+    background-image: url(section-11/background_tablet.png);
+  }
+.section11_price_menu {
+  display: block;
+}
+.section11_table_container {
+  width: 100%;
+}
+.section11_pricing {
+  margin: 0;
+}
+.section11_menu_mobile_hide {
+  display: block;
+}
+.section11_menu_apply {
+  margin-top: 0;
+}
+.section11_menu_apply_hide {
+  display: none;
+}
+.section11_services {
+  margin-top: 80px;
+  display: block;
+  padding-bottom: 64px;
+}
+.section11_tablet_services {
+  display: flex;
+  padding-bottom: 49px;
+}
+.section11_tick {
+  margin-right: 120px;
+}
+.section11_wrapper {
+  padding-right: 0;
+}
+.section11_wrapper_content {
+  flex-direction: column;
+}
+.section11_networks {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.section11_networks_text {
+  margin-bottom: 0;
+}
+.section11_form {
+  margin:0;
+  width: fit-content;
+}
+.section11_contact_conteiner {
+  margin-top: 122px;
+}
+.section11_contact_form {
+  margin-left: 0;
+}
+}
 
 @media (min-width: 572px) and (max-width: 992px) {
   .cards {
@@ -423,6 +524,128 @@ padding-top: 24px;
   .sectioin8_table_container {
     margin-top: 0px;
   }
+  /* SECTION 9 */
+  .section9 {
+    padding: 0 16px;
+  }
+  .section9_image {
+    width:1145px;
+    height: 810px;
+    right: -360px;
+    top: 466px;
+  }
+  .section9_secondary_text_2part {
+    padding-top: 400px;
+  }
+  .section9_day-title_position {
+    margin-bottom: 24px;
+  }
+  /* SECTION 10 */ 
+  .section10 {
+  padding: 124px 16px 45px;
+  }
+  /* SECTION 11 */
+  .section11 {
+padding: 48px 16px 54px;
+background-image: url(section-11/background_mobile.png);
+  }
+  .section11_main_text {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .section11_table {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section11_main_text {
+    margin-bottom: 0;
+  } 
+  .section11_table_column1 {
+    margin-bottom: 8px;
+  }
+  .section11_table {
+    padding: 24px 0;
+  }
+  .section11_menu_mobile_hide {
+    display: none;
+  }
+  .section11_tick {
+    margin: 0;
+  }
+  .section11_networks_items {
+    display: none;
+  }
+  .section11_services {
+    padding-bottom: 16px;
+    margin-top: 40px;
+  }
+  .section11_border {
+    padding-bottom: 40px;
+  }
+  .section11_wrapper_table>div{
+flex-direction: column;
+  }
+  .section11_fields {
+    flex-direction: column;
+  }
+  .section11_fields input {
+    width:100%;
+  }
+  .section11_field1_position {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  .section11_rate_conteiner {
+    margin-top:24px;
+  }
+  .section11_rate_price {
+    font-size: 24px;
+    padding-left: 30px;
+  }
+  .section11_price_column1 label {
+    padding-left: 10px;
+  }
+  .section11_price_column1 {
+    margin-bottom: 8px;
+    display: flex;
+  } 
+  .section11_wrapper_rate_date {
+    width:100%;
+  }
+  .section11_rate_button {
+    width: 100%;
+  }
+  .section11_rate_conteiner_button {
+    margin-top: 32px;
+  }
+  .section11_contact_conteiner {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .section11_magazine img {
+    width: 229px;
+    height: 214px;
+    margin-left: -68px;
+  }
+  .section11_contact_email_button {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section11_contact_button {
+    margin-top: 24px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .section11_contact_form_email {
+    width: 100%;
+  }
+  .section11_apply {
+    margin-top: 40px;
+  }
+  .section11_menu {
+    margin-top: 40px;
+  }
+  
 }
 
 

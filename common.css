@@ -403,25 +403,16 @@ button:disabled {
     display: flex;
 }
 
-/* .table tr {
-    border-bottom: solid 1px #bababa;
-}
-
-.table td {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 35px;
-    padding-left: 15px;
-}
-
-.table_space {
-    width: 50px;
-}
-
-.table_bold_text {
+.table_service {
     font-family: "Lato-Bold";
-} */
+}
 
+.table_discription {
+    width: 226px;
+    font-size: 14px;
+    color: #BABABA;
+    opacity: 0.7;
+}
 
 /* IMPUT */
 
