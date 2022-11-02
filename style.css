@@ -181,7 +181,7 @@
 }
 
 .section2__background {
-  background-image: url(section-2/background1.png);
+  background-image: url(section-2/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   bottom: 0;
@@ -992,6 +992,9 @@ display: block;
   width: 352px;
   height: 466px;
 }
+.section12_pictures div {
+    margin-right: 96px;
+  }
 
 .section12_pictures {
   display: flex;

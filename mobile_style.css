@@ -337,9 +337,6 @@
 .section12_gallery {
   margin-top: 48px;
 }
-.section12_pictures img {
-  margin-right: 96px;
-}
 /* SECTION 13 */
 .section13 {
   padding: 63px 40px 24px;
@@ -690,6 +687,13 @@ flex-direction: column;
     width: 289px;
     height: 383px;
   }
+  .section12_pictures div {
+    width: 100%;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center; 
+  }
+
   .section12_gallery {
     margin-top: 24px;
   }
