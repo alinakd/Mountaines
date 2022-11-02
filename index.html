@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900" rel="stylesheet" />
+    <meta name="description" content="Landing page about mountaines and travelling." />
     <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mobile_style.css" />
@@ -16,10 +17,16 @@
         <div class="main__heading">
           <div class="main__header">
             <div class="main_logo d-flex">
-              <img src="logo/logo.svg" width="50px" height="37px" />
+              <img src="logo/logo.svg" alt="logo" width="50px" height="37px" />
               <div class="main__logo_text">
-                <img class="main__logo_text_1world" src="logo/dreamkam.svg" width="100px" height="14px" />
-                <img src="logo/tour.svg" width="46px" height="14px" />
+                <img
+                  class="main__logo_text_1world"
+                  alt="dreamkam"
+                  src="logo/dreamkam.svg"
+                  width="100px"
+                  height="14px"
+                />
+                <img src="logo/tour.svg" alt="tour" width="46px" height="14px" />
               </div>
             </div>
             <div class="d-flex align-items-center">
@@ -34,7 +41,7 @@
               </ul>
               <button class="main__menu_button">Забронировать</button>
               <button class="main__menu_hamburger">
-                <img src="main_page/menu.svg" />
+                <img alt="menu" src="main_page/menu.svg" />
               </button>
             </div>
           </div>
@@ -56,51 +63,59 @@
                 <div class="main__link_timetable">
                   <a href="#"> Расписание тура </a>
                 </div>
-                <button class="circle circle_mobile content-center">
-                  <img src="main_page/arrow.svg " />
+                <button aria-label="schedule" class="circle circle_mobile content-center">
+                  <img alt="arrow" src="main_page/arrow.svg" />
                 </button>
               </div>
             </div>
             <div class="d-flex main__items_icone_delete">
-              <a href="#"><img class="icon_facebook" src="main_page/icon_facebook.svg" /> </a>
-              <a href="#"> <img src="main_page/icon_instagram.svg" /> </a>
+              <a href="#" aria-label="facebook">
+                <img alt="facebook" class="icon_facebook" src="main_page/icon_facebook.svg" />
+              </a>
+              <a href="#" aria-label="instagram">
+                <img alt="instagram" src="main_page/icon_instagram.svg" />
+              </a>
             </div>
           </div>
           <div>
             <div class="main__gallery_navigation">
               <div class="d-flex main__gallery_pictures">
                 <div class="position-relative main_gallery_item_active">
-                  <img class="gallery_image" src="main_page/picture1.jpeg" />
+                  <img alt="picture1" class="gallery_image" src="main_page/picture1.jpeg" />
                   <div class="main_gallery_caption gallery_caption">
                     <span>Поход в горы</span>
                   </div>
                 </div>
                 <div class="position-relative main_gallery_item shadow">
-                  <img class="gallery_image" src="main_page/picture2.jpeg" />
+                  <img alt="picture2" class="gallery_image" src="main_page/picture2.jpeg" />
                   <div class="main_gallery_caption gallery_caption">
                     <span>Дикая природа</span>
                   </div>
                 </div>
                 <div class="position-relative main_gallery_item shadow">
-                  <img class="gallery_image" src="main_page/picture3.jpeg" />
+                  <img alt="picture3" class="gallery_image" src="main_page/picture3.jpeg" />
                   <div class="main_gallery_caption gallery_caption">
                     <span>Незбываемые пляжи</span>
                   </div>
                 </div>
               </div>
               <div class="d-flex main__navigation">
-                <button disabled class="circle circle-small content-center mr-2">
-                  <img src="common-img/white_arrow-left.svg" />
+                <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2">
+                  <img alt="arrow-left" src="common-img/white_arrow-left.svg" />
                 </button>
-                <button class="circle circle-small content-center">
-                  <img src="common-img/white_arrow-right.svg" />
+                <button aria-label="arrow-right" class="circle circle-small content-center">
+                  <img alt="arrow-right" src="common-img/white_arrow-right.svg" />
                 </button>
               </div>
             </div>
           </div>
           <div class="d-flex main__items_icone_mobile main__items_icone">
-            <a href="#"><img class="icon_facebook" src="main_page/icon_facebook.svg" /> </a>
-            <a href="#"> <img src="main_page/icon_instagram.svg" /> </a>
+            <a href="#">
+              <img alt="facebook" class="icon_facebook" src="main_page/icon_facebook.svg" />
+            </a>
+            <a href="#">
+              <img alt="instagram" src="main_page/icon_instagram.svg" />
+            </a>
           </div>
         </div>
       </section>
@@ -122,29 +137,29 @@
         <div class="section2_icons section2_content_icon">
           <div class="section2_background-text">Камчатка</div>
           <div class="flex-direction-column section2_content_icon_container">
-            <img src="section-2/level.svg" />
+            <img alt="level" src="section-2/level.svg" />
             <span class="section2_icons_title">Сложность</span>
             <span class="section2_icons_subtitle">Для семейного отдыха</span>
           </div>
           <div class="flex-direction-column section2_content_icon_container">
-            <img src="section-2/calendar.svg" />
+            <img alt="calendar" src="section-2/calendar.svg" />
             <span class="section2_icons_title">Период</span>
             <span class="section2_icons_subtitle">Июль - сентябрь</span>
           </div>
           <div class="flex-direction-column section2_content_icon_container">
-            <img src="section-2/wall-clock.svg" />
+            <img alt="wall-clock" src="section-2/wall-clock.svg" />
             <span class="section2_icons_title">Длительность</span>
             <span class="section2_icons_subtitle">7 дней / 6 ночей</span>
           </div>
           <div class="flex-direction-column section2_content_icon_container">
-            <img src="section-2/hotels.svg" />
+            <img alt="hotels" src="section-2/hotels.svg" />
             <span class="section2_icons_title">Проживание</span>
             <span class="section2_icons_subtitle">Отель, без палаток</span>
           </div>
         </div>
         <div class="section2__text-container">
           <div class="section2__airplane">
-            <img src="section-2/plane.png" width="800" height="327px" />
+            <img alt="plane" src="section-2/plane.png" width="800" height="327px" />
           </div>
           <div class="section2__text-container_secondary text-white">
             Камчатка – земля великолепной заснеженной природы, действующих вулканов и диких мест, где ещё не ступала
@@ -164,7 +179,7 @@
         <div class="pointer section3_pointer_position">
           <div class="pointer_center"></div>
         </div>
-        <img src="section-3/dashed_strip.svg" class="dashed_strip" />
+        <img alt="dashed_strip" src="section-3/dashed_strip.svg" class="dashed_strip" />
         <div class="section3_text_container">
           <div class="text-white section3__main-text day-title">
             <span class="main-text_color_date">День 1.</span> Прибытие. Встреча в аэропорту и размещение
@@ -186,7 +201,7 @@
         <div class="section3_gallery_position gallery_wrapper">
           <div class="gallery_pictures">
             <div class="gallery_item_active gallery_gradient">
-              <img class="gallery_image" src="section-3/picture1,3.png" />
+              <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
               <div class="gallery_caption">
                 <span>Паратунка</span>
                 <div class="gallery_caption_description">
@@ -195,7 +210,7 @@
               </div>
             </div>
             <div class="gallery_item gallery_gradient">
-              <img class="gallery_image" src="section-3/picture2.png" />
+              <img alt="picture2" class="gallery_image" src="section-3/picture2.png" />
               <div class="gallery_caption gallery_caption_item">
                 <span>Памятник “Здесь начинается Россия”</span>
                 <div class="gallery_caption_description">
@@ -204,7 +219,7 @@
               </div>
             </div>
             <div class="gallery_item gallery_gradient">
-              <img class="gallery_image" src="section-3/picture1,3.png" />
+              <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
               <div class="gallery_caption gallery_caption_item">
                 <span>Название слайда</span>
                 <div class="gallery_caption_description">
@@ -214,16 +229,16 @@
             </div>
           </div>
           <div class="d-flex gallery_buttons_left">
-            <button disabled class="circle circle-small content-center mr-2">
-              <img src="common-img/white_arrow-left.svg" />
+            <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2">
+              <img alt="arrow-left" src="common-img/white_arrow-left.svg" />
             </button>
-            <button class="circle circle-small content-center">
-              <img src="common-img/white_arrow-right.svg" />
+            <button aria-label="arrow-right" class="circle circle-small content-center">
+              <img alt="arrow-right" src="common-img/white_arrow-right.svg" />
             </button>
           </div>
         </div>
         <div class="section3__clouds">
-          <img src="section-3/clouds.png" width="1861px" height="302px" />
+          <img alt="clouds" src="section-3/clouds.png" width="1861px" height="302px" />
         </div>
       </section>
       <section class="section4">
@@ -244,14 +259,14 @@
             Сбор участников на Роуп Джамп для прыжков с высоты над водопадом. Заранее решаем кто прыгает.
           </div>
           <div class="section4_picture">
-            <img src="section-4/mountaine.png" class="section4_img_mountaine" width="1659px" height="727px" />
+            <img alt="mountain" src="section-4/mountaine.png" class="section4_img_mountaine" width="1659px" height="727px" />
           </div>
         </div>
         <div class="d-flex section4_gallery_text">
           <div class="gallery_wrapper section4_gallery_position">
             <div class="gallery_pictures">
               <div class="gallery_item_active gallery_gradient mr-4">
-                <img class="gallery_image" src="section-3/picture1,3.png" />
+                <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
                 <div class="gallery_caption">
                   <span>Паратунка</span>
                   <div class="gallery_caption_description">
@@ -260,7 +275,7 @@
                 </div>
               </div>
               <div class="gallery_item_active gallery_gradient mr-4">
-                <img class="gallery_image" src="section-3/picture2.png" />
+                <img alt="picture2" class="gallery_image" src="section-3/picture2.png" />
                 <div class="gallery_caption gallery_caption_item">
                   <span>Памятник “Здесь начинается Россия”</span>
                   <div class="gallery_caption_description">
@@ -269,7 +284,7 @@
                 </div>
               </div>
               <div class="gallery_item_active gallery_gradient">
-                <img class="gallery_image" src="section-3/picture1,3.png" />
+                <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
                 <div class="gallery_caption gallery_caption_item">
                   <span>Название слайда</span>
                   <div class="gallery_caption_description">
@@ -279,11 +294,11 @@
               </div>
             </div>
             <div class="d-flex gallery_buttons_right">
-              <button disabled class="circle circle-small content-center mr-2 circle-black">
-                <img src="common-img/black_arrow-left.svg" />
+              <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2 circle-black">
+                <img alt="arrow-left" src="common-img/black_arrow-left.svg" />
               </button>
-              <button class="circle circle-small content-center circle-black">
-                <img src="common-img/black_arrow-right.svg" />
+              <button aria-label="arrow-right" class="circle circle-small content-center circle-black">
+                <img alt="arrow-right" src="common-img/black_arrow-right.svg" />
               </button>
             </div>
           </div>
@@ -304,7 +319,7 @@
         <div class="section5_main-text">На протяжении маршрута вас ожидает:</div>
         <div class="section5_cards">
           <div class="cards">
-            <img src="section-5/audio.png" />
+            <img alt="audio" src="section-5/audio.png" />
             <div class="card_content_position">
               <div class="card_secondary-text">Аудиосопровождение</div>
               <div class="card_description">
@@ -314,7 +329,7 @@
             </div>
           </div>
           <div class="cards">
-            <img src="section-5/eat.png" />
+            <img alt="eat" src="section-5/eat.png" />
             <div class="card_content_position">
               <div class="card_secondary-text">Разнообразное питание</div>
               <div class="card_description">
@@ -324,7 +339,7 @@
             </div>
           </div>
           <div class="cards">
-            <img src="section-5/trip.png" />
+            <img alt="trip" src="section-5/trip.png" />
             <div class="card_content_position">
               <div class="card_secondary-text">Безопасность на маршруте</div>
               <div class="card_description">
@@ -333,7 +348,7 @@
             </div>
           </div>
           <div class="cards">
-            <img src="section-5/photo.png" />
+            <img alt="photo" src="section-5/photo.png" />
             <div class="card_content_position">
               <div class="card_secondary-text">Потрясающие фото</div>
               <div class="card_description">
@@ -347,7 +362,7 @@
       <section class="section6">
         <div class="gallery_pictures section6_gallery_position gallery_wrapper">
           <div class="gallery_item gallery_gradient">
-            <img class="gallery_image" src="section-3/picture1,3.png" />
+            <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
             <div class="gallery_caption gallery_caption_item">
               <span>Памятник “Здесь начинается Россия”</span>
               <div class="gallery_caption_description">
@@ -356,7 +371,7 @@
             </div>
           </div>
           <div class="gallery_item gallery_gradient">
-            <img class="gallery_image" src="section-3/picture2.png" />
+            <img alt="picture2" class="gallery_image" src="section-3/picture2.png" />
             <div class="gallery_caption gallery_caption_item">
               <span>Памятник “Здесь начинается Россия”</span>
               <div class="gallery_caption_description">
@@ -365,7 +380,7 @@
             </div>
           </div>
           <div class="gallery_item_active gallery_gradient ml-4">
-            <img class="gallery_image" src="section-3/picture1,3.png" />
+            <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
             <div class="gallery_caption gallery_caption_item">
               <span>Название слайда</span>
               <div class="gallery_caption_description">
@@ -374,20 +389,20 @@
             </div>
           </div>
           <div class="d-flex gallery_buttons_right section6_buttons_black">
-            <button disabled class="circle circle-small content-center mr-2 circle-black">
-              <img src="common-img/black_arrow-left.svg" />
+            <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2 circle-black">
+              <img alt="arrow-left" src="common-img/black_arrow-left.svg" />
             </button>
-            <button class="circle circle-small content-center circle-black">
-              <img src="common-img/black_arrow-right.svg" />
+            <button aria-label="arrow-right" class="circle circle-small content-center circle-black">
+              <img alt="arrow-right" src="common-img/black_arrow-right.svg" />
             </button>
           </div>
           <img src="section-6/eagle_mobile.png" class="section6_eagle_mobile" />
           <div class="d-flex gallery_buttons_left section6_buttons_white">
-            <button disabled class="circle circle-small content-center mr-2">
-              <img src="common-img/white_arrow-left.svg" />
+            <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2">
+              <img alt="arrow-left" src="common-img/white_arrow-left.svg" />
             </button>
-            <button class="circle circle-small content-center">
-              <img src="common-img/white_arrow-right.svg" />
+            <button aria-label="arrow-right" class="circle circle-small content-center">
+              <img alt="arrow-right" src="common-img/white_arrow-right.svg" />
             </button>
           </div>
         </div>
@@ -436,7 +451,7 @@
         <div class="section7_gallery_position gallery_wrapper">
           <div class="gallery_pictures">
             <div class="gallery_item_active gallery_gradient">
-              <img class="gallery_image gallery_item_active" src="section-7/pic1.png" />
+              <img alt="pic1" class="gallery_image gallery_item_active" src="section-7/pic1.png" />
               <div class="gallery_caption">
                 <span>Паратунка</span>
                 <div class="gallery_caption_description">
@@ -445,7 +460,7 @@
               </div>
             </div>
             <div class="gallery_item gallery_gradient">
-              <img class="gallery_image" src="section-3/picture2.png" />
+              <img alt="picture2" class="gallery_image" src="section-3/picture2.png" />
               <div class="gallery_caption gallery_caption_item">
                 <span>Памятник “Здесь начинается Россия”</span>
                 <div class="gallery_caption_description">
@@ -454,7 +469,7 @@
               </div>
             </div>
             <div class="gallery_item gallery_gradient">
-              <img class="gallery_image" src="section-3/picture1,3.png" />
+              <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
               <div class="gallery_caption gallery_caption_item">
                 <span>Название слайда</span>
                 <div class="gallery_caption_description">
@@ -464,18 +479,17 @@
             </div>
           </div>
           <div class="d-flex gallery_buttons_left">
-            <button disabled class="circle circle-small content-center mr-2">
-              <img src="common-img/white_arrow-left.svg" />
+            <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2">
+              <img alt="arrow-left" src="common-img/white_arrow-left.svg" />
             </button>
-            <button class="circle circle-small content-center">
-              <img src="common-img/white_arrow-right.svg" />
+            <button aria-label="arrow-right" class="circle circle-small content-center">
+              <img alt="arrow-right" src="common-img/white_arrow-right.svg" />
             </button>
           </div>
         </div>
-        <img src="section-7/birds.png" width="373px" height="315px" class="s7_img_position" />
+        <img alt="birds" src="section-7/birds.png" width="373px" height="315px" class="s7_img_position" />
       </section>
       <section class="section8">
-        <div class="section8_gradient"></div>
         <div class="section8_container">
           <div class="pointer section8_pointer_position">
             <div class="pointer_center"></div>
@@ -484,7 +498,7 @@
             <div class="gallery_wrapper">
               <div class="gallery_pictures section8_container_gallery">
                 <div class="gallery_item gallery_gradient">
-                  <img class="gallery_image" src="section-3/picture1,3.png" />
+                  <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
                   <div class="gallery_caption gallery_caption_item">
                     <span>Название слайда</span>
                     <div class="gallery_caption_description">
@@ -493,7 +507,7 @@
                   </div>
                 </div>
                 <div class="gallery_item gallery_gradient mr-4">
-                  <img class="gallery_image" src="section-3/picture2.png" />
+                  <img alt="picture2" class="gallery_image" src="section-3/picture2.png" />
                   <div class="gallery_caption gallery_caption_item">
                     <span>Памятник “Здесь начинается Россия”</span>
                     <div class="gallery_caption_description">
@@ -502,7 +516,7 @@
                   </div>
                 </div>
                 <div class="gallery_item_active gallery_gradient">
-                  <img class="gallery_image" src="section-8/gallery_sea.png" />
+                  <img alt="gallery_sea" class="gallery_image" src="section-8/gallery_sea.png" />
                   <div class="gallery_caption gallery_caption_item">
                     <span>Паратунка</span>
                     <div class="gallery_caption_description">
@@ -512,11 +526,11 @@
                 </div>
               </div>
               <div class="d-flex gallery_buttons_right">
-                <button disabled class="circle circle-small content-center mr-2">
-                  <img src="common-img/white_arrow-left.svg" />
+                <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2">
+                  <img alt="arrow-left" src="common-img/white_arrow-left.svg" />
                 </button>
-                <button class="circle circle-small content-center">
-                  <img src="common-img/white_arrow-right.svg" />
+                <button aria-label="arrow-right" class="circle circle-small content-center">
+                  <img alt="arrow-right" src="common-img/white_arrow-right.svg" />
                 </button>
               </div>
             </div>
@@ -567,7 +581,7 @@
           <div class="section8_gallery2_position gallery_wrapper">
             <div class="gallery_pictures">
               <div class="gallery_item_active gallery_gradient">
-                <img class="gallery_image gallery_item_active" src="section-8/gallery2_SUP.jpeg" />
+                <img alt="gallery2_SUP" class="gallery_image gallery_item_active" src="section-8/gallery2_SUP.jpeg" />
                 <div class="gallery_caption">
                   <span>Волновой SUP серфинг</span>
                   <div class="gallery_caption_description">
@@ -576,7 +590,7 @@
                 </div>
               </div>
               <div class="gallery_item gallery_gradient">
-                <img class="gallery_image" src="section-8/gallery2_beach.png" />
+                <img alt="gallery2_beach" class="gallery_image" src="section-8/gallery2_beach.png" />
                 <div class="gallery_caption gallery_caption_item">
                   <span>Халактырский пляж</span>
                   <div class="gallery_caption_description">
@@ -585,7 +599,7 @@
                 </div>
               </div>
               <div class="gallery_item gallery_gradient">
-                <img class="gallery_image" src="section-3/picture1,3.png" />
+                <img alt="picture1,3" class="gallery_image" src="section-3/picture1,3.png" />
                 <div class="gallery_caption gallery_caption_item">
                   <span>Название слайда</span>
                   <div class="gallery_caption_description">
@@ -595,11 +609,11 @@
               </div>
             </div>
             <div class="d-flex gallery_buttons_left">
-              <button disabled class="circle circle-small content-center mr-2">
-                <img src="common-img/white_arrow-left.svg" />
+              <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2">
+                <img alt="arrow-left" src="common-img/white_arrow-left.svg" />
               </button>
-              <button class="circle circle-small content-center">
-                <img src="common-img/white_arrow-right.svg" />
+              <button aria-label="arrow-right" class="circle circle-small content-center">
+                <img alt="arrow-right" src="common-img/white_arrow-right.svg" />
               </button>
             </div>
           </div>
@@ -608,7 +622,7 @@
           </div>
         </div>
         <div class="section3__clouds">
-          <img src="section-3/clouds.png" width="1861px" height="302px" />
+          <img alt="clouds" src="section-3/clouds.png" width="1861px" height="302px" />
         </div>
       </section>
       <section class="section9">
@@ -635,13 +649,13 @@
               столбов пара вырываются здесь из жёлтых фумарольных полей. Осмотр термальных полей.
             </div>
           </div>
-          <img class="section9_image" src="section-9/picture1.png" />
+          <img alt="section9_image" class="section9_image" src="section-9/picture1.png" />
         </div>
         <div class="section9_wrapper">
           <div class="gallery_wrapper">
             <div class="gallery_pictures section9_gallery_position">
               <div class="gallery_item_active gallery_gradient mr-4">
-                <img class="gallery_image gallery_item_active" src="section-3/picture1,3.png" />
+                <img alt="picture1,3" class="gallery_image gallery_item_active" src="section-3/picture1,3.png" />
                 <div class="gallery_caption">
                   <span>Паратунка</span>
                   <div class="gallery_caption_description">
@@ -650,7 +664,7 @@
                 </div>
               </div>
               <div class="gallery_item_active gallery_gradient mr-4">
-                <img class="gallery_image" src="section-9/gallery1.png" />
+                <img alt="gallery1" class="gallery_image" src="section-9/gallery1.png" />
                 <div class="gallery_caption gallery_caption_item">
                   <span>Памятник “Здесь начинается Россия”</span>
                   <div class="gallery_caption_description">
@@ -659,7 +673,7 @@
                 </div>
               </div>
               <div class="gallery_item_active gallery_gradient mr-4">
-                <img class="gallery_image" src="section-9/gallery2.png" />
+                <img alt="gallery2" class="gallery_image" src="section-9/gallery2.png" />
                 <div class="gallery_caption gallery_caption_item">
                   <span>Название слайда</span>
                   <div class="gallery_caption_description">
@@ -669,11 +683,11 @@
               </div>
             </div>
             <div class="d-flex gallery_buttons_right">
-              <button disabled class="circle circle-small content-center mr-2 circle-black">
-                <img src="common-img/black_arrow-left.svg" />
+              <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2 circle-black">
+                <img alt="arrow-left" src="common-img/black_arrow-left.svg" />
               </button>
-              <button class="circle circle-small content-center circle-black">
-                <img src="common-img/black_arrow-right.svg" />
+              <button aria-label="arrow-right" class="circle circle-small content-center circle-black">
+                <img alt="arrow-right" src="common-img/black_arrow-right.svg" />
               </button>
             </div>
           </div>
@@ -733,8 +747,8 @@
             </div>
             <div class="d-flex section11_apply desktop_tablet_hidden">
               <a href="#">Отправить заявку</a>
-              <button class="circle circle-black content-center">
-                <img src="common-img/black_arrow.svg" />
+              <button aria-label="send-request" class="circle circle-black content-center">
+                <img alt="arrow" src="common-img/black_arrow.svg" />
               </button>
             </div>
             <div class="section11_menu_apply section11_menu_apply_hide">
@@ -745,8 +759,8 @@
               </div>
               <div class="d-flex section11_apply">
                 <a href="#">Отправить заявку</a>
-                <button class="circle circle-black content-center">
-                  <img src="common-img/black_arrow.svg" />
+                <button aria-label="send-request" class="circle circle-black content-center">
+                  <img alt="arrow" src="common-img/black_arrow.svg" />
                 </button>
               </div>
             </div>
@@ -755,7 +769,7 @@
             <div class="section11_tablet_services">
               <div class="section11_tick">
                 <div class="d-flex">
-                  <img src="section-11/tick.svg" />
+                  <img alt="tick" src="section-11/tick.svg" />
                   <span class="section11_tick_text section11_list_title">В стоимость входит</span>
                 </div>
                 <ul>
@@ -777,15 +791,15 @@
                 </div>
                 <div class="d-flex section11_apply">
                   <a href="#">Отправить заявку</a>
-                  <button class="circle circle-black content-center">
-                    <img src="common-img/black_arrow.svg" />
+                  <button aria-label="send-request" class="circle circle-black content-center">
+                    <img alt="arrow" src="common-img/black_arrow.svg" />
                   </button>
                 </div>
               </div>
             </div>
             <div>
               <div class="d-flex">
-                <img src="section-11/money.svg" />
+                <img alt="money" src="section-11/money.svg" />
                 <span class="section11_list_title">За дополнительную плату</span>
               </div>
               <ul>
@@ -809,9 +823,9 @@
             <div class="section11_networks">
               <div class="section11_networks_text">Онлайн-заявка</div>
               <div class="d-flex section11_networks_items">
-                <img src="section-11/instagram.svg" />
-                <img src="section-11/facebook.svg" />
-                <img src="section-11/vk.svg" />
+                <img alt="instagram" src="section-11/instagram.svg" width="23" height="23" />
+                <img alt="facebook" src="section-11/facebook.svg" width="23" height="23" />
+                <img alt="vk" src="section-11/vk.svg" width="31" height="30" />
               </div>
             </div>
             <div class="section11_form">
@@ -831,11 +845,11 @@
                   />
                   <label for="number_of_people">Количество человек</label>
                   <div class="section11_controls">
-                    <button>
-                      <img src="section-11/minus.svg" />
+                    <button aria-label="minus">
+                      <img alt="minus" src="section-11/minus.svg" />
                     </button>
-                    <button>
-                      <img src="section-11/plus.svg" />
+                    <button aria-label="plus">
+                      <img alt="plus" src="section-11/plus.svg" />
                     </button>
                   </div>
                 </div>
@@ -869,8 +883,8 @@
                   <input type="date" name="date" value="2000-01-23" id="date" class="form_name" />
                   <label for="date">Даты тура</label>
                   <div class="section11_controls">
-                    <button>
-                      <img src="section-11/calendar.svg" />
+                    <button aria-label="calendar">
+                      <img alt="calendar" src="section-11/calendar.svg" />
                     </button>
                   </div>
                 </div>
@@ -893,7 +907,7 @@
           </div>
           <div class="section11_contact_conteiner d-flex">
             <div class="section11_magazine">
-              <img src="section-11/magazine.png" />
+              <img alt="magazine" src="section-11/magazine.png" />
             </div>
             <div class="section11_contact_form">
               <div class="section11_contact_main_text text-white">Что нужно знать отправляясь на Камчатку?</div>
@@ -906,6 +920,7 @@
                   name="email"
                   id="email"
                   value="Ваш e-mail"
+                  aria-label="Ваш e-mail"
                   class="form_name section11_contact_form_email"
                 />
                 <button class="button section11_contact_button">Получить</button>
@@ -926,21 +941,21 @@
         <div class="section12_gallery">
           <div class="section12_pictures">
             <div class="flex-direction-column">
-              <img src="section-12/photo_alina.png" />
+              <imga alt="photo_alina" src="section-12/photo_alina.png" />
               <span class="section12_contact">
                 Алина Гончарова,
                 <a href="#"> @alin_och </a>
               </span>
             </div>
             <div class="flex-direction-column">
-              <img src="section-12/photo_yeugenii.png" />
+              <img alt="photo_yeugenii" src="section-12/photo_yeugenii.png" />
               <span class="section12_contact">
                 Евгений Барсуков,
                 <a href="#"> @eugen_eugen </a>
               </span>
             </div>
             <div class="flex-direction-column">
-              <img src="section-12/photo_dmitrii.png" />
+              <img alt="photo_dmitrii" src="section-12/photo_dmitrii.png" />
               <span class="section12_contact">
                 Дмитрий Осипов,
                 <a href="#"> @dim_os </a>
@@ -948,11 +963,11 @@
             </div>
           </div>
           <div class="d-flex section12_gallery_buttons">
-            <button disabled class="circle circle-small content-center mr-2 circle-black">
-              <img src="common-img/black_arrow-left.svg" />
+            <button aria-label="arrow-left" disabled class="circle circle-small content-center mr-2 circle-black">
+              <img alt="arrow-left" src="common-img/black_arrow-left.svg" />
             </button>
-            <button class="circle circle-small content-center circle-black">
-              <img src="common-img/black_arrow-right.svg" />
+            <button aria-label="arrow-right" class="circle circle-small content-center circle-black">
+              <img alt="arrow-right" src="common-img/black_arrow-right.svg" />
             </button>
           </div>
         </div>
@@ -961,7 +976,7 @@
         <div class="section13_container footer_borders d-flex">
           <div class="section13_container_separat">
             <div class="section13_container_menu">
-              <img src="section-13/logo.png" width="167px" height="37px" />
+              <img alt="logo" src="section-13/logo.png" width="167px" height="37px" />
               <div class="section13_logo">
                 <div class="section13_menu">
                   <span>Расписание тура</span>
@@ -978,23 +993,23 @@
               </div>
               <div class="section13_gallery_pictures">
                 <div class="d-flex">
-                  <img src="section-13/picture1.png" />
-                  <img src="section-13/picture2.png" />
-                  <img src="section-13/picture3.png" />
+                  <img alt="picture1" src="section-13/picture1.png" />
+                  <img alt="picture2" src="section-13/picture2.png" />
+                  <img alt="picture3" src="section-13/picture3.png" />
                 </div>
                 <div class="d-flex">
-                  <img src="section-13/picture4.png" />
-                  <img src="section-13/picture3.png" />
-                  <img src="section-13/picture1.png" />
+                  <img alt="picture4" src="section-13/picture4.png" />
+                  <img alt="picture3" src="section-13/picture3.png" />
+                  <img alt="picture1" src="section-13/picture1.png" />
                 </div>
               </div>
             </div>
           </div>
-          <div class="section13_container_separat section13_container2 ">
+          <div class="section13_container_separat section13_container2">
             <div class="section13_container_social_network">
               <div class="d-flex section13_video_text">
                 <div class="section13_video">
-                  <button class="play_icon"></button>
+                  <button aria-label="play" class="play_icon"></button>
                 </div>
                 <div class="text-white">
                   <div class="section13_social_main_text">
@@ -1007,23 +1022,23 @@
               <div>
                 <span class="text-white section13_social_networks">Социальные сети</span>
                 <div class="d-flex section13_social_networks_icons">
-                  <img src="section-13/instagram.svg" />
-                  <img src="section-13/facebook.svg" />
-                  <img src="section-13/vk.svg" />
+                  <img alt="instagram" src="section-13/instagram.svg" />
+                  <img alt="facebook" src="section-13/facebook.svg" />
+                  <img alt="vk" src="section-13/vk.svg" />
                 </div>
               </div>
             </div>
             <div class="section13_container_contact text-white">
-              <div class="sectioin13_contact_information">
+              <div class="section13_contact_information">
                 <div class="section13_number">+ 7 (760) 354-23-23</div>
                 <div class="section13_contact_text">Работаем с 9:00 до 18:00</div>
               </div>
               <div class="section13_contact">
-                <img src="section-13/letter.svg" class="mr-1" />
+                <img alt="letter" src="section-13/letter.svg" class="mr-1" />
                 <span>info@dreamkamtour.ru </span>
               </div>
               <div>
-                <img src="section-13/pointer.svg" class="mr-1" />
+                <img alt="pointer" src="section-13/pointer.svg" class="mr-1" />
                 <span>л. Рубиннштерна, 41 </span>
               </div>
             </div>
